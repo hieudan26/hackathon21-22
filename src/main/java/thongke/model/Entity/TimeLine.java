@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.sql.Time;
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
@@ -14,6 +15,6 @@ import java.time.LocalTime;
 @Data
 @NoArgsConstructor
 public class TimeLine {
-    public LocalTime timeStart;
-    public LocalTime timeEnd;
+    public Long timeStart;
+    public Long timeEnd;
 }

@@ -17,7 +17,6 @@ public class StudyReport {
     protected double sad;
     protected double happy;
     protected double normal;
-    protected double concentrate;
     protected List<TimeLine> lookAtScreen;
     protected List<TimeLine> present;
     protected LocalDate date;
