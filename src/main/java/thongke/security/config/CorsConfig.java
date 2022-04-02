@@ -17,7 +17,7 @@ public class CorsConfig {
                registry.addMapping("/**")
                        .allowedMethods("GET","POST","DELETE","PUT","OPTIONS")
                        .allowedHeaders("*")
-                       .allowedOrigins("http://localhost:3000/","https://tranduy26913.github.io/")
+                       .allowedOrigins("http://localhost:3000/","https://hackathon2122.herokuapp.com/")
                        .allowCredentials(true)
                        .maxAge(3600);
             }
